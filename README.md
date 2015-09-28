@@ -1,4 +1,4 @@
-[![Circle CI](https://circleci.com/gh/sameersbn/docker-postgresql.svg?style=svg)](https://circleci.com/gh/sameersbn/docker-postgresql)
+PostGIS fork from sameersbin/docker-postgresql
 
 # Table of Contents
 
