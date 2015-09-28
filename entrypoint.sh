@@ -231,7 +231,7 @@ if [[ ${PSQL_MODE} == standalone || ${PSQL_MODE} == master ]]; then
       fi
       echo "Installing postgis extension..."
       echo "CREATE EXTENSION postgis;" | \
-        sudo -hu ${PG_USER} ${PG_BINDIR}/postgres --single${db} \
+        sudo -Hu ${PG_USER} ${PG_BINDIR}/postgres --single${db} \
           -D ${PG_DATADIR} -c config_file=${PG_CONFDIR}/postgresql.conf >/devnull
     done
   fi
